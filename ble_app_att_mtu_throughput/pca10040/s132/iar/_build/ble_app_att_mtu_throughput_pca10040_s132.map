@@ -1,0 +1,1415 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.2.11947/W32 for ARM                23/Jul/2018  14:08:18
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_app_att_mtu_throughput_pca10040_s132.out
+#    Map file     =  
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_app_att_mtu_throughput_pca10040_s132.map
+#    Command line =  
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\amtc.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\amts.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\app_button.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\app_error.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\app_error_weak.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\app_scheduler.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\app_timer.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\app_util_platform.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_advdata.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_conn_state.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_db_discovery.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_srv_common.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\boards.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\bsp.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\bsp_nfc.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\counter.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\example_cmds.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\hardfault_implementation.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\iar_startup_nrf52.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\main.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_assert.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_atfifo.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_balloc.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_ble_gatt.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_cli.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_cli_rtt.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_cli_uart.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_drv_clock.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_drv_common.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_drv_gpiote.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_drv_rtc.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_drv_uart.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_fprintf.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_fprintf_format.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_log_backend_rtt.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_log_backend_serial.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_log_backend_uart.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_log_default_backends.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_log_frontend.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_log_str_formatter.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_memobj.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_pwr_mgmt.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_queue.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_ringbuf.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_sdh.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_sdh_ble.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_sdh_soc.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_section_iter.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\nrf_strerror.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\sdk_mapped_flags.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\SEGGER_RTT.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\SEGGER_RTT_printf.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\SEGGER_RTT_Syscalls_IAR.o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\system_nrf52.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_app_att_mtu_throughput_pca10040_s132.out
+#        --map
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build\ble_app_att_mtu_throughput_pca10040_s132.map
+#        --config
+#        C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\ble_app_att_mtu_throughput_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00023000 { ro section .intvec };
+"P1":  place in [from 0x00023000 to 0x0007ffff] { ro };
+"P2":  place in [from 0x20005a00 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+ { section .intvec };
+
+  Section                 Kind        Address    Size  Object
+  -------                 ----        -------    ----  ------
+"A0":                                           0x200
+  .intvec                 ro code  0x00023000   0x200  iar_startup_nrf52.o [1]
+                                 - 0x00023200   0x200
+
+"P1":                                          0xa6d5
+  .text                   ro code  0x00023200  0x1ed8  nrf_cli.o [1]
+  .text                   ro code  0x000250d8    0x36  strlen.o [5]
+  .text                   ro code  0x0002510e     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x00025110    0x3c  nrf_fprintf.o [1]
+  .text                   ro code  0x0002514c    0x42  strcmp_unaligned.o [5]
+  .text                   ro code  0x0002518e     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x00025190     0x6  ABImemclr4.o [5]
+  .text                   ro code  0x00025196     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x00025198    0x78  ABImemmove_unaligned.o [5]
+  .text                   ro code  0x00025210    0x3c  isxxx.o [3]
+  .text                   ro code  0x0002524c    0x44  strcpy_unaligned.o [5]
+  .text                   ro code  0x00025290   0x150  nrf_memobj.o [1]
+  .text                   ro code  0x000253e0    0x76  ABImemcpy_unaligned.o [5]
+  .text                   ro code  0x00025456    0x2c  strncmp.o [3]
+  .text                   ro code  0x00025482   0x534  qsort.o [3]
+  .text                   ro code  0x000259b6     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x000259b8   0xa64  nrf_log_frontend.o [1]
+  .text                   ro code  0x0002641c   0x324  nrf_fprintf_format.o [1]
+  .text                   ro code  0x00026740   0x1ac  nrf_queue.o [1]
+  .text                   ro code  0x000268ec   0x1e8  nrf_log_str_formatter.o [1]
+  .text                   ro code  0x00026ad4    0x3a  ABImemset48.o [5]
+  .text                   ro code  0x00026b0e     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x00026b10    0x18  setlocale.o [3]
+  .text                   ro code  0x00026b28    0x16  xlocale_c.o [3]
+  .text                   ro code  0x00026b3e    0x24  xlocale_c.o [3]
+  .text                   ro code  0x00026b62    0x14  xlocale_c.o [3]
+  .text                   ro code  0x00026b76    0xa2  nrf_balloc.o [1]
+  .text                   ro code  0x00026c18    0x68  app_util_platform.o [1]
+  .text                   ro code  0x00026c80  0x1298  main.o [1]
+  .text                   ro code  0x00027f18    0x62  memcmp_unaligned.o [5]
+  .text                   ro code  0x00027f7a     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x00027f7c    0x22  app_error.o [1]
+  .text                   ro code  0x00027f9e     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x00027fa0   0x2dc  amtc.o [1]
+  .text                   ro code  0x0002827c    0xac  boards.o [1]
+  .text                   ro code  0x00028328   0x604  ble_db_discovery.o [1]
+  .text                   ro code  0x0002892c    0xf4  ble_conn_state.o [1]
+  .text                   ro code  0x00028a20    0x70  counter.o [1]
+  .text                   ro code  0x00028a90   0x2bc  amts.o [1]
+  .text                   ro code  0x00028d4c   0x170  app_button.o [1]
+  .text                   ro code  0x00028ebc   0x464  nrf_ble_gatt.o [1]
+  .text                   ro code  0x00029320   0x5dc  app_timer.o [1]
+  .text                   ro code  0x000298fc   0x1f0  nrf_sdh.o [1]
+  .text                   ro code  0x00029aec   0x474  nrf_sdh_ble.o [1]
+  .text                   ro code  0x00029f60   0x512  ble_advdata.o [1]
+  .text                   ro code  0x0002a472     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002a474    0x74  app_error_weak.o [1]
+  .text                   ro code  0x0002a4e8     0x6  ABImemclr.o [5]
+  .text                   ro code  0x0002a4ee    0xbe  sdk_mapped_flags.o [1]
+  .text                   ro code  0x0002a5ac   0x14c  nrf_drv_rtc.o [1]
+  .text                   ro code  0x0002a6f8   0x1c4  ble_srv_common.o [1]
+  .text                   ro code  0x0002a8bc   0x478  nrf_drv_gpiote.o [1]
+  .text                   ro code  0x0002ad34    0x46  nrf_section_iter.o [1]
+  .text                   ro code  0x0002ad7a     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002ad7c   0x14c  nrf_strerror.o [1]
+  .text                   ro code  0x0002aec8    0x5e  ABImemset.o [5]
+  .text                   ro code  0x0002af26     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002af28    0x44  nrf_drv_common.o [1]
+  .text                   ro code  0x0002af6c   0x94c  nrf_drv_uart.o [1]
+  .rodata                 const    0x0002b8b8   0x400  example_cmds.o [1]
+  .rodata                 const    0x0002bcb8   0x3a8  nrf_cli.o [1]
+  .rodata                 const    0x0002c060   0x308  nrf_strerror.o [1]
+  .text                   ro code  0x0002c368   0x290  system_nrf52.o [1]
+  .text                   ro code  0x0002c5f8   0x274  SEGGER_RTT.o [1]
+  .text                   ro code  0x0002c86c   0x254  nrf_ringbuf.o [1]
+  .rodata                 const    0x0002cac0   0x204  nrf_log_frontend.o [1]
+  .text                   ro code  0x0002ccc4   0x1d4  nrf_cli_uart.o [1]
+  .text                   ro code  0x0002ce98   0x1a4  example_cmds.o [1]
+  .text                   ro code  0x0002d03c   0x178  nrf_drv_clock.o [1]
+  .text                   ro code  0x0002d1b4    0xec  nrf_cli_rtt.o [1]
+  .rodata                 const    0x0002d2a0    0xac  main.o [1]
+  .text                   ro code  0x0002d34c    0x78  lz77_init_single.o [5]
+  log_const_data                   0x0002d3c4    0x78  <Block>
+    log_const_data        const    0x0002d3c4     0x8  amtc.o [1]
+    log_const_data        const    0x0002d3cc     0x8  amts.o [1]
+    log_const_data        const    0x0002d3d4     0x8  ble_db_discovery.o [1]
+    log_const_data        const    0x0002d3dc     0x8  nrf_balloc.o [1]
+    log_const_data        const    0x0002d3e4     0x8  nrf_ble_gatt.o [1]
+    log_const_data        const    0x0002d3ec     0x8  nrf_cli_uart.o [1]
+    log_const_data        const    0x0002d3f4     0x8  nrf_drv_clock.o [1]
+    log_const_data        const    0x0002d3fc     0x8  nrf_drv_gpiote.o [1]
+    log_const_data        const    0x0002d404     0x8  nrf_drv_rtc.o [1]
+    log_const_data        const    0x0002d40c     0x8  nrf_drv_uart.o [1]
+    log_const_data        const    0x0002d414     0x8  nrf_log_frontend.o [1]
+    log_const_data        const    0x0002d41c     0x8  nrf_pwr_mgmt.o [1]
+    log_const_data        const    0x0002d424     0x8  nrf_sdh.o [1]
+    log_const_data        const    0x0002d42c     0x8  nrf_sdh_ble.o [1]
+    log_const_data        const    0x0002d434     0x8  nrf_sdh_soc.o [1]
+  .rodata                 const    0x0002d43c    0x60  nrf_log_str_formatter.o [1]
+  cli_command                      0x0002d49c    0x48  <Block>
+    cli_command           const    0x0002d49c     0x8  example_cmds.o [1]
+    cli_command           const    0x0002d4a4     0x8  example_cmds.o [1]
+    cli_command           const    0x0002d4ac     0x8  nrf_cli.o [1]
+    cli_command           const    0x0002d4b4     0x8  nrf_cli.o [1]
+    cli_command           const    0x0002d4bc     0x8  nrf_cli.o [1]
+    cli_command           const    0x0002d4c4     0x8  nrf_cli.o [1]
+    cli_command           const    0x0002d4cc     0x8  nrf_cli.o [1]
+    cli_command           const    0x0002d4d4     0x8  nrf_cli.o [1]
+    cli_command           const    0x0002d4dc     0x8  nrf_log_frontend.o [1]
+  .text                   ro code  0x0002d4e4    0x44  nrf_sdh_soc.o [1]
+  .text                   ro code  0x0002d528    0x40  zero_init3.o [5]
+  .rodata                 const    0x0002d568    0x38  nrf_sdh.o [1]
+  sdh_ble_observers3               0x0002d5a0    0x30  <Block>
+    sdh_ble_observers3    const    0x0002d5a0    0x20  main.o [1]
+    sdh_ble_observers3    const    0x0002d5c0     0x8  main.o [1]
+    sdh_ble_observers3    const    0x0002d5c8     0x8  main.o [1]
+  .rodata                 const    0x0002d5d0    0x2c  nrf_sdh_ble.o [1]
+  .text                   ro code  0x0002d5fc    0x28  data_init.o [5]
+  sdh_ble_observers1               0x0002d624    0x28  <Block>
+    sdh_ble_observers1    const    0x0002d624     0x8  main.o [1]
+    sdh_ble_observers1    const    0x0002d62c    0x20  main.o [1]
+  .text                   ro code  0x0002d64c    0x22  fpinit_M.o [4]
+  .iar.init_table         const    0x0002d670    0x30  - Linker created -
+  .text                   ro code  0x0002d6a0     0x2  iar_startup_nrf52.o [1]
+  .rodata                 const    0x0002d6a4    0x20  nrf_cli_uart.o [1]
+  .rodata                 const    0x0002d6c4    0x1c  app_error_weak.o [1]
+  .rodata                 const    0x0002d6e0    0x1c  nrf_sdh_soc.o [1]
+  .text                   ro code  0x0002d6fc    0x1a  cmain.o [5]
+  .text                   ro code  0x0002d716     0x4  exit.o [3]
+  .text                   ro code  0x0002d71a     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d71c     0xa  cexit.o [5]
+  .text                   ro code  0x0002d726     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d728     0xc  XXexit.o [5]
+  .rodata                 const    0x0002d734    0x14  nrf_cli_rtt.o [1]
+  .text                   ro code  0x0002d748    0x10  iar_startup_nrf52.o [1]
+  sdh_stack_observers0             0x0002d758    0x10  <Block>
+    sdh_stack_observers0  const    0x0002d758     0x8  nrf_sdh_ble.o [1]
+    sdh_stack_observers0  const    0x0002d760     0x8  nrf_sdh_soc.o [1]
+  .rodata                 const    0x0002d768     0xc  ble_db_discovery.o [1]
+  .rodata                 const    0x0002d774     0xc  nrf_ble_gatt.o [1]
+  .rodata                 const    0x0002d780     0xc  nrf_pwr_mgmt.o [1]
+  .text                   ro code  0x0002d78c     0xc  cstartup_M.o [5]
+  .rodata                 const    0x0002d798     0x8  amtc.o [1]
+  .rodata                 const    0x0002d7a0     0x8  amts.o [1]
+  .rodata                 const    0x0002d7a8     0x8  nrf_balloc.o [1]
+  .rodata                 const    0x0002d7b0     0x8  nrf_drv_clock.o [1]
+  .rodata                 const    0x0002d7b8     0x8  nrf_drv_gpiote.o [1]
+  .rodata                 const    0x0002d7c0     0x8  nrf_drv_uart.o [1]
+  sdh_ble_observers0               0x0002d7c8     0x8  <Block>
+    sdh_ble_observers0    const    0x0002d7c8     0x8  ble_conn_state.o [1]
+  sdh_soc_observers0               0x0002d7d0     0x8  <Block>
+    sdh_soc_observers0    const    0x0002d7d0     0x8  nrf_drv_clock.o [1]
+  sdh_state_observers0             0x0002d7d8     0x8  <Block>
+    sdh_state_observers0  const    0x0002d7d8     0x8  nrf_drv_clock.o [1]
+  .rodata                 const    0x0002d7e0     0x4  nrf_drv_rtc.o [1]
+  .text                   ro code  0x0002d7e4     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7e6     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7e8     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7ea     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7ec     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7ee     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7f0     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7f2     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7f4     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7f6     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7f8     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7fa     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7fc     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d7fe     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d800     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d802     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d804     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d806     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d808     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d80a     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d80c     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d80e     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d810     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d812     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d814     0x2  iar_startup_nrf52.o [1]
+  .text                   ro code  0x0002d816     0x2  iar_startup_nrf52.o [1]
+  .rodata                 const    0x0002d818     0x0  zero_init3.o [5]
+  .rodata                 const    0x0002d818     0x0  lz77_init_single.o [5]
+  Initializer bytes       const    0x0002d818    0xbd  <for P2-1>
+                                 - 0x0002d8d5  0xa6d5
+
+"P2", part 1 of 4:                              0xd48
+  P2-1                             0x20005a00   0xd48  <Init block>
+    .data                 inited   0x20005a00   0xc10  main.o [1]
+    .data                 inited   0x20006610    0x18  main.o [1]
+    .data                 inited   0x20006628    0x18  main.o [1]
+    .data                 inited   0x20006640    0x18  main.o [1]
+    .data                 inited   0x20006658    0x18  main.o [1]
+    .data                 inited   0x20006670    0x14  nrf_log_frontend.o [1]
+    .data                 inited   0x20006684    0x14  nrf_log_frontend.o [1]
+    .data                 inited   0x20006698    0x38  nrf_log_str_formatter.o [1]
+    .data                 inited   0x200066d0     0x4  system_nrf52.o [1]
+    __DLIB_PERTHREAD      inited   0x200066d4    0x74  setlocale.o [3]
+                                 - 0x20006748   0xd48
+
+"P2", part 2 of 4:                               0xd8
+  log_dynamic_data                 0x20006748    0xb4  <Block>
+    log_dynamic_data      zero     0x20006748     0xc  amtc.o [1]
+    log_dynamic_data      zero     0x20006754     0xc  amts.o [1]
+    log_dynamic_data      zero     0x20006760     0xc  ble_db_discovery.o [1]
+    log_dynamic_data      zero     0x2000676c     0xc  nrf_balloc.o [1]
+    log_dynamic_data      zero     0x20006778     0xc  nrf_ble_gatt.o [1]
+    log_dynamic_data      zero     0x20006784     0xc  nrf_cli_uart.o [1]
+    log_dynamic_data      zero     0x20006790     0xc  nrf_drv_clock.o [1]
+    log_dynamic_data      zero     0x2000679c     0xc  nrf_drv_gpiote.o [1]
+    log_dynamic_data      zero     0x200067a8     0xc  nrf_drv_rtc.o [1]
+    log_dynamic_data      zero     0x200067b4     0xc  nrf_drv_uart.o [1]
+    log_dynamic_data      zero     0x200067c0     0xc  nrf_log_frontend.o [1]
+    log_dynamic_data      zero     0x200067cc     0xc  nrf_pwr_mgmt.o [1]
+    log_dynamic_data      zero     0x200067d8     0xc  nrf_sdh.o [1]
+    log_dynamic_data      zero     0x200067e4     0xc  nrf_sdh_ble.o [1]
+    log_dynamic_data      zero     0x200067f0     0xc  nrf_sdh_soc.o [1]
+  cli_sorted_cmd_ptrs              0x200067fc    0x24  <Block>
+    cli_sorted_cmd_ptrs   zero     0x200067fc     0x4  example_cmds.o [1]
+    cli_sorted_cmd_ptrs   zero     0x20006800     0x4  example_cmds.o [1]
+    cli_sorted_cmd_ptrs   zero     0x20006804     0x4  nrf_cli.o [1]
+    cli_sorted_cmd_ptrs   zero     0x20006808     0x4  nrf_cli.o [1]
+    cli_sorted_cmd_ptrs   zero     0x2000680c     0x4  nrf_cli.o [1]
+    cli_sorted_cmd_ptrs   zero     0x20006810     0x4  nrf_cli.o [1]
+    cli_sorted_cmd_ptrs   zero     0x20006814     0x4  nrf_cli.o [1]
+    cli_sorted_cmd_ptrs   zero     0x20006818     0x4  nrf_cli.o [1]
+    cli_sorted_cmd_ptrs   zero     0x2000681c     0x4  nrf_log_frontend.o [1]
+                                 - 0x20006820    0xd8
+
+"P2", part 3 of 4:                              0x800
+  CSTACK                           0x20006820   0x800  <Block>
+    CSTACK                uninit   0x20006820   0x800  <Block tail>
+                                 - 0x20007020   0x800
+
+"P2", part 4 of 4:                             0x14d0
+  .bss                    zero     0x20007020   0x420  nrf_log_frontend.o [1]
+  .bss                    zero     0x20007440   0x300  ble_db_discovery.o [1]
+  .bss                    zero     0x20007740   0x288  SEGGER_RTT.o [1]
+  .bss                    zero     0x200079c8   0x180  main.o [1]
+  .bss                    zero     0x20007b48   0x180  main.o [1]
+  .bss                    zero     0x20007cc8   0x140  main.o [1]
+  .bss                    zero     0x20007e08   0x140  main.o [1]
+  .bss                    zero     0x20007f48   0x10c  app_timer.o [1]
+  .bss                    zero     0x20008054    0xc0  nrf_log_frontend.o [1]
+  .bss                    zero     0x20008114    0xb8  ble_conn_state.o [1]
+  .bss                    zero     0x200081cc    0xa0  amtc.o [1]
+  .bss                    zero     0x2000826c    0x58  nrf_drv_gpiote.o [1]
+  .bss                    zero     0x200082c4    0x40  main.o [1]
+  .bss                    zero     0x20008304    0x34  app_button.o [1]
+  .bss                    zero     0x20008338    0x2c  main.o [1]
+  .bss                    zero     0x20008364    0x28  ble_db_discovery.o [1]
+  .bss                    zero     0x2000838c    0x20  main.o [1]
+  .bss                    zero     0x200083ac    0x20  main.o [1]
+  .bss                    zero     0x200083cc    0x20  nrf_drv_uart.o [1]
+  .bss                    zero     0x200083ec    0x18  main.o [1]
+  .bss                    zero     0x20008404    0x18  main.o [1]
+  .bss                    zero     0x2000841c    0x14  app_timer.o [1]
+  .bss                    zero     0x20008430    0x14  main.o [1]
+  .bss                    zero     0x20008444    0x14  main.o [1]
+  .bss                    zero     0x20008458    0x14  nrf_drv_clock.o [1]
+  .bss                    zero     0x2000846c    0x10  main.o [1]
+  .bss                    zero     0x2000847c     0xc  app_util_platform.o [1]
+  .bss                    zero     0x20008488     0xc  main.o [1]
+  .bss                    zero     0x20008494     0xc  main.o [1]
+  .bss                    zero     0x200084a0     0xc  main.o [1]
+  .bss                    zero     0x200084ac     0x8  amtc.o [1]
+  .bss                    zero     0x200084b4     0x8  main.o [1]
+  .bss                    zero     0x200084bc     0x8  main.o [1]
+  .bss                    zero     0x200084c4     0x8  main.o [1]
+  .bss                    zero     0x200084cc     0x8  main.o [1]
+  .bss                    zero     0x200084d4     0x8  nrf_drv_rtc.o [1]
+  .bss                    zero     0x200084dc     0x8  nrf_log_frontend.o [1]
+  .bss                    zero     0x200084e4     0x8  nrf_log_frontend.o [1]
+  .bss                    zero     0x200084ec     0x3  nrf_sdh.o [1]
+                                 - 0x200084ef  0x14cf
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    3 destination ranges, total size 0x15a7:
+          0x20006748    0xb4
+          0x200067fc    0x24
+          0x20007020  0x14cf
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0xbd (5% of destination):
+          0x0002d818    0xbd
+    1 destination range, total size 0xd48:
+          0x20005a00   0xd48
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build: [1]
+    SEGGER_RTT.o                 628               648
+    amtc.o                       732       16      180
+    amts.o                       700       16       12
+    app_button.o                 368                52
+    app_error.o                   34
+    app_error_weak.o             116       28
+    app_timer.o                1 500               288
+    app_util_platform.o          104                12
+    ble_advdata.o              1 298
+    ble_conn_state.o             244        8      184
+    ble_db_discovery.o         1 540       20      820
+    ble_srv_common.o             452
+    boards.o                     172
+    counter.o                    112
+    example_cmds.o               420    1 040        8
+    iar_startup_nrf52.o          606
+    main.o                     4 760      436    4 936
+    nrf_balloc.o                 162       16       12
+    nrf_ble_gatt.o             1 124       20       12
+    nrf_cli.o                  7 896      984       24
+    nrf_cli_rtt.o                236       20
+    nrf_cli_uart.o               468       40       12
+    nrf_drv_clock.o              376       32       32
+    nrf_drv_common.o              68
+    nrf_drv_gpiote.o           1 144       16      100
+    nrf_drv_rtc.o                332       12       20
+    nrf_drv_uart.o             2 380       16       44
+    nrf_fprintf.o                 60
+    nrf_fprintf_format.o         804
+    nrf_log_frontend.o         2 660      535    1 320
+    nrf_log_str_formatter.o      488       99       56
+    nrf_memobj.o                 336
+    nrf_pwr_mgmt.o                         20       12
+    nrf_queue.o                  428
+    nrf_ringbuf.o                596
+    nrf_sdh.o                    496       64       15
+    nrf_sdh_ble.o              1 140       60       12
+    nrf_sdh_soc.o                 68       44       12
+    nrf_section_iter.o            70
+    nrf_strerror.o               332      776
+    sdk_mapped_flags.o           190
+    system_nrf52.o               656                 4
+    --------------------------------------------------
+    Total:                    36 296    4 318    8 827
+
+command line: [2]
+    --------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                         4
+    isxxx.o                       60
+    qsort.o                    1 332
+    setlocale.o                   24        7      116
+    strncmp.o                     44
+    xlocale_c.o                   78
+    --------------------------------------------------
+    Total:                     1 542        7      116
+
+m7M_tls.a: [4]
+    fpinit_M.o                    34
+    --------------------------------------------------
+    Total:                        34
+
+rt7M_tl.a: [5]
+    ABImemclr.o                    6
+    ABImemclr4.o                   6
+    ABImemcpy_unaligned.o        118
+    ABImemmove_unaligned.o       120
+    ABImemset.o                   94
+    ABImemset48.o                 58
+    XXexit.o                      12
+    cexit.o                       10
+    cmain.o                       26
+    cstartup_M.o                  12
+    data_init.o                   40
+    lz77_init_single.o           120
+    memcmp_unaligned.o            98
+    strcmp_unaligned.o            66
+    strcpy_unaligned.o            68
+    strlen.o                      54
+    zero_init3.o                  64
+    --------------------------------------------------
+    Total:                       972
+
+    Gaps                                    4
+    Linker created                         48    2 048
+------------------------------------------------------
+    Grand Total:              38 844    4 377   10 991
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0002d670          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0002d6a0          --   Gb  - Linker created -
+?main                   0x0002d6fd         Code  Gb  cmain.o [5]
+CSTACK$$Base            0x20006820          --   Gb  - Linker created -
+CSTACK$$Limit           0x20007020          --   Gb  - Linker created -
+GPIOTE_IRQHandler       0x0002aba9  0x168  Code  Gb  nrf_drv_gpiote.o [1]
+NVIC_ClearPendingIRQ    0x00029343    0xe  Code  Lc  app_timer.o [1]
+NVIC_EnableIRQ          0x00029321    0xe  Code  Lc  app_timer.o [1]
+NVIC_SetPendingIRQ      0x0002932f    0xc  Code  Lc  app_timer.o [1]
+NVIC_SetPriority        0x00029351   0x1e  Code  Lc  app_timer.o [1]
+POWER_CLOCK_IRQHandler  0x0002d105   0x46  Code  Gb  nrf_drv_clock.o [1]
+RTC1_IRQHandler         0x00029739   0x6e  Code  Gb  app_timer.o [1]
+RTC2_IRQHandler         0x0002a6e5    0x8  Code  Gb  nrf_drv_rtc.o [1]
+Region$$Table$$Base     0x0002d670          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0002d6a0          --   Gb  - Linker created -
+SEGGER_RTT_HasData      0x0002c835   0x12  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_Init         0x0002c853    0x2  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_Read         0x0002c769   0x24  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_ReadNoLock   0x0002c6f5   0x74  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_Write        0x0002c7eb   0x28  Code  Gb  SEGGER_RTT.o [1]
+SEGGER_RTT_WriteNoLock  0x0002c79d   0x4e  Code  Gb  SEGGER_RTT.o [1]
+SWI0_EGU0_IRQHandler    0x000297a7    0x2  Code  Gb  app_timer.o [1]
+SWI2_EGU2_IRQHandler    0x00029ac3    0x2  Code  Gb  nrf_sdh.o [1]
+SystemCoreClock         0x200066d0    0x4  Data  Gb  system_nrf52.o [1]
+SystemInit              0x0002c369  0x23a  Code  Gb  system_nrf52.o [1]
+UARTE0_UART0_IRQHandler
+                        0x0002b885   0x10  Code  Gb  nrf_drv_uart.o [1]
+_DoInit                 0x0002c5f9   0x56  Code  Lc  SEGGER_RTT.o [1]
+_GetAvailWriteSpace     0x0002c6dd   0x18  Code  Lc  SEGGER_RTT.o [1]
+_IsdstStr               0x200066d8    0x4  Data  Gb  setlocale.o [3]
+_LocaleC_isalpha        0x00026b29   0x16  Code  Gb  xlocale_c.o [3]
+_LocaleC_ispunct        0x00026b3f   0x24  Code  Gb  xlocale_c.o [3]
+_LocaleC_isspace        0x00026b63   0x14  Code  Gb  xlocale_c.o [3]
+_LocaleForCat           0x00026b11   0x12  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x200066f8   0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x200066dc   0x1c  Data  Gb  setlocale.o [3]
+_SEGGER_RTT             0x20007740   0x78  Data  Gb  SEGGER_RTT.o [1]
+_TzoneStr               0x200066d4    0x4  Data  Gb  setlocale.o [3]
+_WriteBlocking          0x0002c64f   0x54  Code  Lc  SEGGER_RTT.o [1]
+_WriteNoCheck           0x0002c6a3   0x3a  Code  Lc  SEGGER_RTT.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000ffff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20005a00         Data  Gb  command line/config [2]
+__Vectors               0x00023000          --   Gb  iar_startup_nrf52.o [1]
+__Vectors_End           0x00023200         Data  Gb  iar_startup_nrf52.o [1]
+__Vectors_Size {Abs}    0x00000200          --   Gb  iar_startup_nrf52.o [1]
+__aeabi_memclr          0x0002a4e9         Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4         0x00025191         Code  Gb  ABImemclr4.o [5]
+__aeabi_memset4         0x00026ad5         Code  Gb  ABImemset48.o [5]
+__aeabi_memset8         0x00026ad5         Code  Gb  ABImemset48.o [5]
+__cmain                 0x0002d6fd         Code  Gb  cmain.o [5]
+__exit                  0x0002d729         Code  Gb  XXexit.o [5]
+__iar_Memset4_word      0x00026add         Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x00026add         Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x0002aec9         Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x0002d5fd   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x0002d64d         Code  Gb  fpinit_M.o [4]
+__iar_lz77_init_single3
+                        0x0002d34d   0x78  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x0002d78d         Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x000253e1         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x00025401         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x00025401         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memmove
+                        0x00025199         Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned___aeabi_memmove4
+                        0x00025199         Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned___aeabi_memmove8
+                        0x00025199         Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned_memcmp  0x00027f19         Code  Gb  memcmp_unaligned.o [5]
+__iar_unaligned_strcmp  0x0002514d         Code  Gb  strcmp_unaligned.o [5]
+__iar_unaligned_strcpy  0x0002524d         Code  Gb  strcpy_unaligned.o [5]
+__iar_zero_init3        0x0002d529   0x40  Code  Gb  zero_init3.o [5]
+__sd_nvic_app_accessible_irq
+                        0x000298fd   0x26  Code  Lc  nrf_sdh.o [1]
+__sd_nvic_is_app_accessible_priority
+                        0x00029923   0x16  Code  Lc  nrf_sdh.o [1]
+__vector_table          0x00023000         Data  Gb  iar_startup_nrf52.o [1]
+_acDownBuffer           0x200079b8   0x10  Data  Lc  SEGGER_RTT.o [1]
+_acUpBuffer             0x200077b8  0x200  Data  Lc  SEGGER_RTT.o [1]
+_call_main              0x0002d709         Code  Gb  cmain.o [5]
+_exit                   0x0002d71d         Code  Gb  cexit.o [5]
+_main                   0x0002d713         Code  Gb  cmain.o [5]
+adjust_heap             0x000255e5   0x88  Code  Lc  qsort.o [3]
+adv_report_parse        0x00026cb7   0x2c  Code  Lc  main.o [1]
+advertising_start       0x00027437   0x32  Code  Lc  main.o [1]
+amtc_evt_handler        0x000271c9  0x19e  Code  Lc  main.o [1]
+amtc_evt_handler{1}{2}{13}::bytes_cnt
+                        0x20005a20    0x4  Data  Lc  main.o [1]
+amtc_evt_handler{1}{2}{13}::kbytes_cnt
+                        0x20005a24    0x4  Data  Lc  main.o [1]
+amts_evt_handler        0x0002702d  0x18e  Code  Lc  main.o [1]
+app_button_disable      0x00028e83   0x26  Code  Gb  app_button.o [1]
+app_button_enable       0x00028e63   0x20  Code  Gb  app_button.o [1]
+app_button_init         0x00028dfd   0x66  Code  Gb  app_button.o [1]
+app_error_fault_handler
+                        0x0002a475   0x74  Code  Wk  app_error_weak.o [1]
+app_error_handler_bare  0x00027f7d   0x14  Code  Gb  app_error.o [1]
+app_timer_cnt_get       0x000298ad    0x6  Code  Gb  app_timer.o [1]
+app_timer_create        0x000297ed   0x26  Code  Gb  app_timer.o [1]
+app_timer_init          0x000297a9   0x44  Code  Gb  app_timer.o [1]
+app_timer_start         0x00029813   0x7e  Code  Gb  app_timer.o [1]
+app_timer_stop          0x00029891   0x1c  Code  Gb  app_timer.o [1]
+app_util_critical_region_enter
+                        0x00026c19   0x36  Code  Gb  app_util_platform.o [1]
+app_util_critical_region_exit
+                        0x00026c4f   0x22  Code  Gb  app_util_platform.o [1]
+apply_config            0x0002b025   0xb4  Code  Lc  nrf_drv_uart.o [1]
+att_mtu_size_set        0x0002ce99   0x1c  Code  Lc  example_cmds.o [1]
+ble_advdata_encode      0x0002a2a9  0x144  Code  Gb  ble_advdata.o [1]
+ble_advdata_set         0x0002a411   0x62  Code  Gb  ble_advdata.o [1]
+ble_conn_state_n_centrals
+                        0x00028a11    0xc  Code  Gb  ble_conn_state.o [1]
+ble_db_discovery_evt_register
+                        0x0002873b   0x34  Code  Gb  ble_db_discovery.o [1]
+ble_db_discovery_init   0x0002871f   0x1c  Code  Gb  ble_db_discovery.o [1]
+ble_db_discovery_on_ble_evt
+                        0x000287e1   0xc4  Code  Gb  ble_db_discovery.o [1]
+ble_db_discovery_start  0x000287b9   0x28  Code  Gb  ble_db_discovery.o [1]
+ble_device_addr_encode  0x00029f6b   0x5a  Code  Lc  ble_advdata.o [1]
+ble_evt_handler         0x0002892d   0xe4  Code  Lc  ble_conn_state.o [1]
+ble_evt_handler         0x00026e6f  0x176  Code  Lc  main.o [1]
+ble_srv_is_notification_enabled
+                        0x0002a703    0x8  Code  Gb  ble_srv_common.o [1]
+ble_stack_init::m_ble_observer
+                        0x0002d5c8    0x8  Data  Lc  main.o [1]
+bsp_board_led_invert    0x000282d1   0x1c  Code  Gb  boards.o [1]
+bsp_board_led_off       0x000282b5    0xa  Code  Gb  boards.o [1]
+bsp_board_led_on        0x000282ab    0xa  Code  Gb  boards.o [1]
+bsp_board_leds_init     0x000282fd   0x28  Code  Gb  boards.o [1]
+bsp_board_leds_off      0x000282bf   0x12  Code  Gb  boards.o [1]
+buf_prealloc            0x00025c49   0x5a  Code  Lc  nrf_log_frontend.o [1]
+buffer_add              0x0002641d   0x1c  Code  Lc  nrf_fprintf_format.o [1]
+buffer_is_empty         0x00025d35   0x14  Code  Gb  nrf_log_frontend.o [1]
+button_evt_handler      0x000274b9   0x5c  Code  Lc  main.o [1]
+buttons_init::buttons   0x20006600   0x10  Data  Lc  main.o [1]
+channel_free            0x0002a9d1   0x18  Code  Lc  nrf_drv_gpiote.o [1]
+channel_port_alloc      0x0002a993   0x3e  Code  Lc  nrf_drv_gpiote.o [1]
+char_backspace          0x000237f5   0x76  Code  Lc  nrf_cli.o [1]
+char_backspace{2}{6}::cmd_bspace
+                        0x0002386c    0x4  Data  Lc  nrf_cli.o [1]
+char_delete             0x00023871   0x4e  Code  Lc  nrf_cli.o [1]
+char_delete{2}{3}{4}::cmd
+                        0x000238c0    0x4  Data  Lc  nrf_cli.o [1]
+char_insert             0x00023713   0xca  Code  Lc  nrf_cli.o [1]
+char_notification_send  0x00028be7   0xae  Code  Lc  amts.o [1]
+characteristic_add      0x0002a73b  0x168  Code  Gb  ble_srv_common.o [1]
+characteristics_discover
+                        0x000284a1   0x3c  Code  Lc  ble_db_discovery.o [1]
+clear_str_ptr           0x20006804    0x4  Data  Gb  nrf_cli.o [1]
+cli_clear_eos           0x0002336d    0x8  Code  Lc  nrf_cli.o [1]
+cli_clear_eos{1}::cmd   0x00023374    0x4  Data  Lc  nrf_cli.o [1]
+cli_command$$Base       0x0002d49c          --   Gb  - Linker created -
+cli_command$$Limit      0x0002d4e4          --   Gb  - Linker created -
+cli_cursor_restore      0x0002338d    0x8  Code  Lc  nrf_cli.o [1]
+cli_cursor_restore{1}::cmd
+                        0x00023394    0x4  Data  Lc  nrf_cli.o [1]
+cli_cursor_save         0x00023379    0x6  Code  Lc  nrf_cli.o [1]
+cli_cursor_save{1}::cmd
+                        0x00023388    0x4  Data  Lc  nrf_cli.o [1]
+cli_execute             0x00024341  0x184  Code  Lc  nrf_cli.o [1]
+cli_init                0x00027623   0x5c  Code  Gb  main.o [1]
+cli_log_entry_process   0x00024a23  0x126  Code  Lc  nrf_cli.o [1]
+cli_putc                0x0002328f    0xa  Code  Lc  nrf_cli.o [1]
+cli_read                0x00023299    0xc  Code  Lc  nrf_cli.o [1]
+cli_rtt                 0x0002d2f0    0xc  Data  Lc  main.o [1]
+cli_rtt_cb              0x20008488    0xc  Data  Lc  main.o [1]
+cli_rtt_enable          0x0002d207   0x54  Code  Lc  nrf_cli_rtt.o [1]
+cli_rtt_init            0x0002d1e7   0x18  Code  Lc  nrf_cli_rtt.o [1]
+cli_rtt_read            0x0002d25b   0x10  Code  Lc  nrf_cli_rtt.o [1]
+cli_rtt_timer           0x0002d2ec    0x4  Data  Lc  main.o [1]
+cli_rtt_timer_data      0x200083ac   0x20  Data  Lc  main.o [1]
+cli_rtt_uninit          0x0002d1ff    0x8  Code  Lc  nrf_cli_rtt.o [1]
+cli_rtt_write           0x0002d26b   0x2e  Code  Lc  nrf_cli_rtt.o [1]
+cli_sorted_cmd_ptrs$$Base
+                        0x200067fc          --   Gb  - Linker created -
+cli_sorted_cmd_ptrs$$Limit
+                        0x20006820          --   Gb  - Linker created -
+cli_start               0x00027685   0x10  Code  Gb  main.o [1]
+cli_state_collect       0x000240c1  0x1e0  Code  Lc  nrf_cli.o [1]
+cli_state_set           0x00023a13   0x20  Code  Lc  nrf_cli.o [1]
+cli_stats_str_ptr       0x20006818    0x4  Data  Gb  nrf_cli.o [1]
+cli_strlen              0x00023201    0xa  Code  Lc  nrf_cli.o [1]
+cli_tab_handle          0x00023dcf  0x25c  Code  Lc  nrf_cli.o [1]
+cli_transport_evt_handler
+                        0x0002453b    0xc  Code  Lc  nrf_cli.o [1]
+cli_uart                0x0002d2d4   0x18  Data  Lc  main.o [1]
+cli_uart_cb             0x20008338   0x2c  Data  Lc  main.o [1]
+cli_uart_enable         0x0002cdc5   0x6c  Code  Lc  nrf_cli_uart.o [1]
+cli_uart_init           0x0002cd67   0x48  Code  Lc  nrf_cli_uart.o [1]
+cli_uart_read           0x0002ce39    0xa  Code  Lc  nrf_cli_uart.o [1]
+cli_uart_rx_ringbuf     0x0002d2c0    0xc  Data  Lc  main.o [1]
+cli_uart_rx_ringbuf_buf
+                        0x2000846c   0x10  Data  Lc  main.o [1]
+cli_uart_rx_ringbuf_cb  0x20008404   0x18  Data  Lc  main.o [1]
+cli_uart_timer          0x0002d2b0    0x4  Data  Lc  main.o [1]
+cli_uart_timer_data     0x2000838c   0x20  Data  Lc  main.o [1]
+cli_uart_tx_ringbuf     0x0002d2b4    0xc  Data  Lc  main.o [1]
+cli_uart_tx_ringbuf_buf
+                        0x200082c4   0x40  Data  Lc  main.o [1]
+cli_uart_tx_ringbuf_cb  0x200083ec   0x18  Data  Lc  main.o [1]
+cli_uart_uart           0x0002d2cc    0x8  Data  Lc  main.o [1]
+cli_uart_uninit         0x0002cdaf   0x16  Code  Lc  nrf_cli_uart.o [1]
+cli_uart_write          0x0002ce43   0x4a  Code  Lc  nrf_cli_uart.o [1]
+cli_write               0x0002323d   0x52  Code  Lc  nrf_cli.o [1]
+clock_clk_started_notify
+                        0x0002d0e1   0x24  Code  Lc  nrf_drv_clock.o [1]
+cmd_att_mtu_158_set     0x0002cf2f    0x4  Code  Lc  example_cmds.o [1]
+cmd_att_mtu_23_set      0x0002cf2b    0x4  Code  Lc  example_cmds.o [1]
+cmd_att_mtu_247_set     0x0002cf33    0x4  Code  Lc  example_cmds.o [1]
+cmd_config_get          0x0002cf59    0x4  Code  Lc  example_cmds.o [1]
+cmd_conn_interval_150_set
+                        0x0002cf3f    0x4  Code  Lc  example_cmds.o [1]
+cmd_conn_interval_400_set
+                        0x0002cf43    0x6  Code  Lc  example_cmds.o [1]
+cmd_conn_interval_50_set
+                        0x0002cf3b    0x4  Code  Lc  example_cmds.o [1]
+cmd_conn_interval_7_5_set
+                        0x0002cf37    0x4  Code  Lc  example_cmds.o [1]
+cmd_dle_off_set         0x0002cf4d    0x4  Code  Lc  example_cmds.o [1]
+cmd_dle_on_set          0x0002cf49    0x4  Code  Lc  example_cmds.o [1]
+cmd_get                 0x000232a5   0x70  Code  Lc  nrf_cli.o [1]
+cmd_phy_1m_set          0x0002cf51    0x4  Code  Lc  example_cmds.o [1]
+cmd_phy_2m_set          0x0002cf55    0x4  Code  Lc  example_cmds.o [1]
+cmd_test_run            0x0002cf95    0x4  Code  Lc  example_cmds.o [1]
+cmd_trim                0x000242b9   0x78  Code  Lc  nrf_cli.o [1]
+colors_str_ptr          0x20006808    0x4  Data  Gb  nrf_cli.o [1]
+compare_reg_update      0x0002959f   0x86  Code  Lc  app_timer.o [1]
+completion_insert       0x00023cab   0x74  Code  Lc  nrf_cli.o [1]
+config_str_ptr          0x200067fc    0x4  Data  Gb  example_cmds.o [1]
+conn_int_encode         0x0002a139   0x7e  Code  Lc  ble_advdata.o [1]
+conn_interval_set       0x00027555    0x6  Code  Gb  main.o [1]
+connection_interval_set
+                        0x0002ceb5   0x1a  Code  Lc  example_cmds.o [1]
+counter_get             0x00028a6f    0x6  Code  Gb  counter.o [1]
+counter_init            0x00028a29   0x30  Code  Gb  counter.o [1]
+counter_start           0x00028a59    0xe  Code  Gb  counter.o [1]
+counter_stop            0x00028a67    0x8  Code  Gb  counter.o [1]
+countlink               0x20005a1c    0x4  Data  Lc  main.o [1]
+current_config_print    0x00027573   0x68  Code  Gb  main.o [1]
+cursor_down_move        0x000233ed   0x10  Code  Lc  nrf_cli.o [1]
+cursor_end_position_move
+                        0x00023497   0x42  Code  Lc  nrf_cli.o [1]
+cursor_home_position_move
+                        0x00023455   0x42  Code  Lc  nrf_cli.o [1]
+cursor_in_empty_line    0x0002320b   0x10  Code  Lc  nrf_cli.o [1]
+cursor_left_move        0x000233a5   0x10  Code  Lc  nrf_cli.o [1]
+cursor_next_line_move   0x00023399    0x8  Code  Lc  nrf_cli.o [1]
+cursor_next_line_move{1}::cmd
+                        0x000233a0    0x4  Data  Lc  nrf_cli.o [1]
+cursor_position_get     0x000234e1  0x186  Code  Lc  nrf_cli.o [1]
+cursor_position_get::cmd_get_terminal_size
+                        0x00023668    0x8  Data  Lc  nrf_cli.o [1]
+cursor_position_synchronize
+                        0x00023405   0x48  Code  Lc  nrf_cli.o [1]
+cursor_right_move       0x000233bd   0x10  Code  Lc  nrf_cli.o [1]
+cursor_up_move          0x000233d5   0x10  Code  Lc  nrf_cli.o [1]
+data_len_ext_set        0x0002755b   0x18  Code  Gb  main.o [1]
+db_disc_evt_handler     0x000273b9   0x16  Code  Lc  main.o [1]
+default_cmd             0x0002cf5d   0x38  Code  Lc  example_cmds.o [1]
+descriptors_discover    0x000284dd   0x86  Code  Lc  ble_db_discovery.o [1]
+detection_delay_timeout_handler
+                        0x00028d4d   0x60  Code  Lc  app_button.o [1]
+discovery_complete_evt_trigger
+                        0x0002838d   0x72  Code  Lc  ble_db_discovery.o [1]
+discovery_error_evt_trigger
+                        0x00028359   0x34  Code  Lc  ble_db_discovery.o [1]
+discovery_start         0x0002876f   0x4a  Code  Lc  ble_db_discovery.o [1]
+dle_set                 0x0002ced5   0x22  Code  Lc  example_cmds.o [1]
+echo_str_ptr            0x2000680c    0x4  Data  Gb  nrf_cli.o [1]
+exit                    0x0002d717    0x4  Code  Gb  exit.o [3]
+format_offset_string_print
+                        0x0002471f   0xda  Code  Lc  nrf_cli.o [1]
+full_line_cmd           0x0002321b    0xe  Code  Lc  nrf_cli.o [1]
+gatt_evt_handler        0x000273cf   0x56  Code  Lc  main.o [1]
+gatt_mtu_set            0x00027523   0x2a  Code  Gb  main.o [1]
+gpiote_event_handler    0x00028dad   0x50  Code  Lc  app_button.o [1]
+history_handle          0x00023a39  0x10e  Code  Lc  nrf_cli.o [1]
+history_list_element_add
+                        0x00023b47   0x68  Code  Lc  nrf_cli.o [1]
+history_list_element_oldest_remove
+                        0x00023baf   0x58  Code  Lc  nrf_cli.o [1]
+history_save            0x00023c27   0x7c  Code  Lc  nrf_cli.o [1]
+history_str_ptr         0x20006810    0x4  Data  Gb  nrf_cli.o [1]
+int_print               0x000264d3   0x9a  Code  Lc  nrf_fprintf_format.o [1]
+interrupts_disable      0x0002b147   0x26  Code  Lc  nrf_drv_uart.o [1]
+interrupts_enable       0x0002b0f3   0x54  Code  Lc  nrf_drv_uart.o [1]
+intro_sort              0x0002566d  0x33c  Code  Lc  qsort.o [3]
+is_desc_discovery_reqd  0x00028461   0x40  Code  Lc  ble_db_discovery.o [1]
+isalpha                 0x00025211   0x14  Code  Gb  isxxx.o [3]
+ispunct                 0x00025225   0x14  Code  Gb  isxxx.o [3]
+isspace                 0x00025239   0x14  Code  Gb  isxxx.o [3]
+lfclk_stop              0x0002d05f   0x16  Code  Lc  nrf_drv_clock.o [1]
+link_init               0x00028ebd   0x18  Code  Lc  nrf_ble_gatt.o [1]
+list_insertions_handler
+                        0x00029433  0x168  Code  Lc  app_timer.o [1]
+log_cmd                 0x00026299   0x38  Code  Lc  nrf_log_frontend.o [1]
+log_const_data$$Base    0x0002d3c4          --   Gb  - Linker created -
+log_const_data$$Limit   0x0002d43c          --   Gb  - Linker created -
+log_ctrl                0x000260d9  0x138  Code  Lc  nrf_log_frontend.o [1]
+log_dynamic_data$$Base  0x20006748          --   Gb  - Linker created -
+log_dynamic_data$$Limit
+                        0x200067fc          --   Gb  - Linker created -
+log_go                  0x00026291    0x8  Code  Lc  nrf_log_frontend.o [1]
+log_halt                0x00026289    0x8  Code  Lc  nrf_log_frontend.o [1]
+log_skip                0x00025b59   0x94  Code  Lc  nrf_log_frontend.o [1]
+log_status              0x00026001   0xac  Code  Lc  nrf_log_frontend.o [1]
+log_str_ptr             0x2000681c    0x4  Data  Gb  nrf_log_frontend.o [1]
+m_amtc                  0x2000658c   0x50  Data  Lc  main.o [1]
+m_amtc_obs              0x0002d5a0   0x20  Data  Lc  main.o [1]
+m_amts                  0x200065dc   0x24  Data  Lc  main.o [1]
+m_amts_ble_obs          0x0002d5c0    0x8  Data  Lc  main.o [1]
+m_att_mtu_size_cmds     0x0002bb20    0x8  Data  Lc  example_cmds.o [1]
+m_att_mtu_size_cmds_raw
+                        0x0002bb28   0x40  Data  Lc  example_cmds.o [1]
+m_bcs                   0x20008114   0xb8  Data  Lc  ble_conn_state.o [1]
+m_ble_db_discovery      0x20005a5c  0xb30  Data  Lc  main.o [1]
+m_ble_db_discovery_obs  0x0002d62c   0x20  Data  Lc  main.o [1]
+m_ble_evt_observer      0x0002d7c8    0x8  Data  Lc  ble_conn_state.o [1]
+m_board_led_list        0x00028324    0x4  Data  Lc  boards.o [1]
+m_board_role            0x20005a08    0x1  Data  Lc  main.o [1]
+m_button_count          0x20008304    0x1  Data  Lc  app_button.o [1]
+m_cb                    0x2000826c   0x58  Data  Lc  nrf_drv_gpiote.o [1]
+m_cb                    0x200084d4    0x4  Data  Lc  nrf_drv_rtc.o [1]
+m_cb                    0x200083cc   0x20  Data  Lc  nrf_drv_uart.o [1]
+m_cli_rtt               0x00027e90   0x1c  Data  Lc  main.o [1]
+m_cli_rtt_cmd_hist_memobj
+                        0x0002d338   0x14  Data  Lc  main.o [1]
+m_cli_rtt_cmd_hist_memobj_nrf_balloc_cb
+                        0x200084cc    0x8  Data  Lc  main.o [1]
+m_cli_rtt_cmd_hist_memobj_nrf_balloc_pool_mem
+                        0x20007b48  0x180  Data  Lc  main.o [1]
+m_cli_rtt_cmd_hist_memobj_nrf_balloc_pool_stack
+                        0x200084c4    0x8  Data  Lc  main.o [1]
+m_cli_rtt_ctx           0x20007e08  0x140  Data  Lc  main.o [1]
+m_cli_rtt_fprintf_ctx   0x20006640   0x18  Data  Lc  main.o [1]
+m_cli_rtt_log_backend   0x20006658   0x18  Data  Lc  main.o [1]
+m_cli_rtt_log_backend_queue
+                        0x0002d324   0x14  Data  Lc  main.o [1]
+m_cli_rtt_log_backend_queue_nrf_queue_buffer
+                        0x20008444   0x14  Data  Lc  main.o [1]
+m_cli_rtt_log_backend_queue_nrf_queue_cb
+                        0x200084a0    0xc  Data  Lc  main.o [1]
+m_cli_uart              0x00027e74   0x1c  Data  Lc  main.o [1]
+m_cli_uart_cmd_hist_memobj
+                        0x0002d310   0x14  Data  Lc  main.o [1]
+m_cli_uart_cmd_hist_memobj_nrf_balloc_cb
+                        0x200084bc    0x8  Data  Lc  main.o [1]
+m_cli_uart_cmd_hist_memobj_nrf_balloc_pool_mem
+                        0x200079c8  0x180  Data  Lc  main.o [1]
+m_cli_uart_cmd_hist_memobj_nrf_balloc_pool_stack
+                        0x200084b4    0x8  Data  Lc  main.o [1]
+m_cli_uart_ctx          0x20007cc8  0x140  Data  Lc  main.o [1]
+m_cli_uart_fprintf_ctx  0x20006610   0x18  Data  Lc  main.o [1]
+m_cli_uart_log_backend  0x20006628   0x18  Data  Lc  main.o [1]
+m_cli_uart_log_backend_queue
+                        0x0002d2fc   0x14  Data  Lc  main.o [1]
+m_cli_uart_log_backend_queue_nrf_queue_buffer
+                        0x20008430   0x14  Data  Lc  main.o [1]
+m_cli_uart_log_backend_queue_nrf_queue_cb
+                        0x20008494    0xc  Data  Lc  main.o [1]
+m_clock_cb              0x20008458   0x14  Data  Lc  nrf_drv_clock.o [1]
+m_colors                0x200066ac   0x24  Data  Lc  nrf_log_str_formatter.o [1]
+m_conn_handle           0x20005a18    0x2  Data  Lc  main.o [1]
+m_conn_interval_cmds    0x0002bb68    0x8  Data  Lc  example_cmds.o [1]
+m_conn_interval_cmds_raw
+                        0x0002bb70   0x50  Data  Lc  example_cmds.o [1]
+m_conn_interval_configured
+                        0x20005a0e    0x1  Data  Lc  main.o [1]
+m_conn_param            0x20005a10    0x8  Data  Lc  main.o [1]
+m_data_length_updated   0x20005a0c    0x1  Data  Lc  main.o [1]
+m_detection_delay       0x2000830c    0x4  Data  Lc  app_button.o [1]
+m_detection_delay_timer_id
+                        0x00028eb4    0x4  Data  Lc  app_button.o [1]
+m_detection_delay_timer_id_data
+                        0x20008318   0x20  Data  Lc  app_button.o [1]
+m_dle_cmds              0x0002bbc0    0x8  Data  Lc  example_cmds.o [1]
+m_dle_cmds_raw          0x0002bbc8   0x30  Data  Lc  example_cmds.o [1]
+m_evt_handler           0x20008380    0x4  Data  Lc  ble_db_discovery.o [1]
+m_gap_role              0x20005a0f    0x1  Data  Lc  main.o [1]
+m_gatt                  0x20005a28   0x34  Data  Lc  main.o [1]
+m_gatt_obs              0x0002d624    0x8  Data  Lc  main.o [1]
+m_handlers              0x200084d8    0x4  Data  Lc  nrf_drv_rtc.o [1]
+m_initialized           0x2000837c    0x1  Data  Lc  ble_db_discovery.o [1]
+m_log_data              0x20007020  0x420  Data  Lc  nrf_log_frontend.o [1]
+m_module_name           0x00026414    0x8  Data  Lc  nrf_log_frontend.o [1]
+m_mtu_exchanged         0x20005a0b    0x1  Data  Lc  main.o [1]
+m_notif_enabled         0x20005a0a    0x1  Data  Lc  main.o [1]
+m_nrf_cli_command_not_found
+                        0x000244dc   0x14  Data  Lc  nrf_cli.o [1]
+m_nrf_cli_uknown_parameter
+                        0x00025094   0x18  Data  Lc  nrf_cli.o [1]
+m_nrf_log_AMTC_logs_data_const
+                        0x0002d3c4    0x8  Data  Gb  amtc.o [1]
+m_nrf_log_AMTC_logs_data_dynamic
+                        0x20006748    0xc  Data  Gb  amtc.o [1]
+m_nrf_log_AMTS_logs_data_const
+                        0x0002d3cc    0x8  Data  Gb  amts.o [1]
+m_nrf_log_AMTS_logs_data_dynamic
+                        0x20006754    0xc  Data  Gb  amts.o [1]
+m_nrf_log_app_logs_data_const
+                        0x0002d414    0x8  Data  Gb  nrf_log_frontend.o [1]
+m_nrf_log_app_logs_data_dynamic
+                        0x200067c0    0xc  Data  Gb  nrf_log_frontend.o [1]
+m_nrf_log_balloc_logs_data_const
+                        0x0002d3dc    0x8  Data  Gb  nrf_balloc.o [1]
+m_nrf_log_balloc_logs_data_dynamic
+                        0x2000676c    0xc  Data  Gb  nrf_balloc.o [1]
+m_nrf_log_ble_db_disc_logs_data_const
+                        0x0002d3d4    0x8  Data  Gb  ble_db_discovery.o [1]
+m_nrf_log_ble_db_disc_logs_data_dynamic
+                        0x20006760    0xc  Data  Gb  ble_db_discovery.o [1]
+m_nrf_log_ble_gatt_logs_data_const
+                        0x0002d3e4    0x8  Data  Gb  nrf_ble_gatt.o [1]
+m_nrf_log_ble_gatt_logs_data_dynamic
+                        0x20006778    0xc  Data  Gb  nrf_ble_gatt.o [1]
+m_nrf_log_cli_uart_logs_data_const
+                        0x0002d3ec    0x8  Data  Gb  nrf_cli_uart.o [1]
+m_nrf_log_cli_uart_logs_data_dynamic
+                        0x20006784    0xc  Data  Gb  nrf_cli_uart.o [1]
+m_nrf_log_clock_logs_data_const
+                        0x0002d3f4    0x8  Data  Gb  nrf_drv_clock.o [1]
+m_nrf_log_clock_logs_data_dynamic
+                        0x20006790    0xc  Data  Gb  nrf_drv_clock.o [1]
+m_nrf_log_gpiote_logs_data_const
+                        0x0002d3fc    0x8  Data  Gb  nrf_drv_gpiote.o [1]
+m_nrf_log_gpiote_logs_data_dynamic
+                        0x2000679c    0xc  Data  Gb  nrf_drv_gpiote.o [1]
+m_nrf_log_nrf_sdh_ble_logs_data_const
+                        0x0002d42c    0x8  Data  Gb  nrf_sdh_ble.o [1]
+m_nrf_log_nrf_sdh_ble_logs_data_dynamic
+                        0x200067e4    0xc  Data  Gb  nrf_sdh_ble.o [1]
+m_nrf_log_nrf_sdh_logs_data_const
+                        0x0002d424    0x8  Data  Gb  nrf_sdh.o [1]
+m_nrf_log_nrf_sdh_logs_data_dynamic
+                        0x200067d8    0xc  Data  Gb  nrf_sdh.o [1]
+m_nrf_log_nrf_sdh_soc_logs_data_const
+                        0x0002d434    0x8  Data  Gb  nrf_sdh_soc.o [1]
+m_nrf_log_nrf_sdh_soc_logs_data_dynamic
+                        0x200067f0    0xc  Data  Gb  nrf_sdh_soc.o [1]
+m_nrf_log_pwr_mgmt_logs_data_const
+                        0x0002d41c    0x8  Data  Gb  nrf_pwr_mgmt.o [1]
+m_nrf_log_pwr_mgmt_logs_data_dynamic
+                        0x200067cc    0xc  Data  Gb  nrf_pwr_mgmt.o [1]
+m_nrf_log_rtc_logs_data_const
+                        0x0002d404    0x8  Data  Gb  nrf_drv_rtc.o [1]
+m_nrf_log_rtc_logs_data_dynamic
+                        0x200067a8    0xc  Data  Gb  nrf_drv_rtc.o [1]
+m_nrf_log_uart_logs_data_const
+                        0x0002d40c    0x8  Data  Gb  nrf_drv_uart.o [1]
+m_nrf_log_uart_logs_data_dynamic
+                        0x200067b4    0xc  Data  Gb  nrf_drv_uart.o [1]
+m_nrf_sdh_ble_evts_poll
+                        0x0002d758    0x8  Data  Lc  nrf_sdh_ble.o [1]
+m_nrf_sdh_continue      0x200084ee    0x1  Data  Lc  nrf_sdh.o [1]
+m_nrf_sdh_enabled       0x200084ec    0x1  Data  Lc  nrf_sdh.o [1]
+m_nrf_sdh_soc_evts_poll
+                        0x0002d760    0x8  Data  Lc  nrf_sdh_soc.o [1]
+m_nrf_sdh_suspended     0x200084ed    0x1  Data  Lc  nrf_sdh.o [1]
+m_num_of_handlers_reg   0x20008388    0x4  Data  Lc  ble_db_discovery.o [1]
+m_op_queue              0x20007f48  0x10c  Data  Lc  app_timer.o [1]
+m_pending_user_evts     0x20007440  0x300  Data  Lc  ble_db_discovery.o [1]
+m_pending_usr_evt_index
+                        0x20008384    0x4  Data  Lc  ble_db_discovery.o [1]
+m_phy_updated           0x20005a0d    0x1  Data  Lc  main.o [1]
+m_pin_state             0x20008310    0x4  Data  Lc  app_button.o [1]
+m_pin_transition        0x20008314    0x4  Data  Lc  app_button.o [1]
+m_prephy_cmds           0x0002bbf8    0x8  Data  Lc  example_cmds.o [1]
+m_prephy_cmds_raw       0x0002bc00   0x30  Data  Lc  example_cmds.o [1]
+m_registered_handlers   0x20008364   0x18  Data  Lc  ble_db_discovery.o [1]
+m_rtc                   0x00028a80    0x8  Data  Lc  counter.o [1]
+m_rtc1_reset            0x2000841f    0x1  Data  Lc  app_timer.o [1]
+m_rtc1_running          0x2000841e    0x1  Data  Lc  app_timer.o [1]
+m_run_test              0x20005a09    0x1  Data  Lc  main.o [1]
+m_scan_param            0x0002749c    0x8  Data  Lc  main.o [1]
+m_sd_state_observer     0x0002d7d8    0x8  Data  Lc  nrf_drv_clock.o [1]
+m_severity_lvl          0x0002cc44    0x8  Data  Lc  nrf_log_frontend.o [1]
+m_severity_lvls         0x20006670   0x14  Data  Lc  nrf_log_frontend.o [1]
+m_severity_lvls_sorted  0x20006684   0x14  Data  Lc  nrf_log_frontend.o [1]
+m_soc_evt_observer      0x0002d7d0    0x8  Data  Lc  nrf_drv_clock.o [1]
+m_sub_cli_stats         0x0002c018    0x8  Data  Lc  nrf_cli.o [1]
+m_sub_cli_stats_raw     0x0002c020   0x30  Data  Lc  nrf_cli.o [1]
+m_sub_colors            0x0002bf40    0x8  Data  Lc  nrf_cli.o [1]
+m_sub_colors_raw        0x0002bf48   0x30  Data  Lc  nrf_cli.o [1]
+m_sub_echo              0x0002bf88    0x8  Data  Lc  nrf_cli.o [1]
+m_sub_echo_raw          0x0002bf90   0x30  Data  Lc  nrf_cli.o [1]
+m_sub_log_stat          0x0002cc4c    0x8  Data  Lc  nrf_log_frontend.o [1]
+m_sub_log_stat_raw      0x0002cc54   0x60  Data  Lc  nrf_log_frontend.o [1]
+m_sub_resize            0x0002bfe0    0x8  Data  Lc  nrf_cli.o [1]
+m_sub_resize_raw        0x0002bfe8   0x20  Data  Lc  nrf_cli.o [1]
+m_target_periph_name    0x00026d7c   0x10  Data  Lc  main.o [1]
+m_test_config_cmds      0x0002bc30    0x8  Data  Lc  example_cmds.o [1]
+m_test_config_cmds_raw  0x0002bc38   0x60  Data  Lc  example_cmds.o [1]
+m_test_params           0x20005a00    0x8  Data  Lc  main.o [1]
+m_ticks_elapsed         0x20008428    0x8  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_read_ind
+                        0x2000841c    0x1  Data  Lc  app_timer.o [1]
+m_ticks_elapsed_q_write_ind
+                        0x2000841d    0x1  Data  Lc  app_timer.o [1]
+m_ticks_latest          0x20008424    0x4  Data  Lc  app_timer.o [1]
+m_tx_buffer             0x200081cc   0xa0  Data  Lc  amtc.o [1]
+m_tx_index              0x200084b0    0x4  Data  Lc  amtc.o [1]
+m_tx_insert_index       0x200084ac    0x4  Data  Lc  amtc.o [1]
+m_unknown_str           0x0002adc4   0x14  Data  Lc  nrf_strerror.o [1]
+main                    0x0002769d  0x1be  Code  Gb  main.o [1]
+make_argv               0x000238f1  0x118  Code  Lc  nrf_cli.o [1]
+manuf_specific_data_encode
+                        0x0002a1b7   0x66  Code  Lc  ble_advdata.o [1]
+med3                    0x00025595   0x50  Code  Lc  qsort.o [3]
+memobj_op               0x00025369   0x62  Code  Lc  nrf_memobj.o [1]
+mempool                 0x00025f28   0x14  Data  Lc  nrf_log_frontend.o [1]
+mempool_nrf_balloc_cb   0x200084e4    0x8  Data  Lc  nrf_log_frontend.o [1]
+mempool_nrf_balloc_pool_mem
+                        0x20008054   0xc0  Data  Lc  nrf_log_frontend.o [1]
+mempool_nrf_balloc_pool_stack
+                        0x200084dc    0x8  Data  Lc  nrf_log_frontend.o [1]
+module_id_filter_set    0x000260b3   0x26  Code  Lc  nrf_log_frontend.o [1]
+module_idx_get          0x00025a59   0x38  Code  Lc  nrf_log_frontend.o [1]
+module_name_get         0x00026227   0x1a  Code  Lc  nrf_log_frontend.o [1]
+mp_buttons              0x20008308    0x4  Data  Lc  app_button.o [1]
+mp_timer_id_head        0x20008420    0x4  Data  Lc  app_timer.o [1]
+multiline_console_data_check
+                        0x00023315   0x3c  Code  Lc  nrf_cli.o [1]
+name_encode             0x00029fc5   0xa0  Code  Lc  ble_advdata.o [1]
+nrf_atomic_flag_clear   0x0002c889   0x1a  Code  Lc  nrf_ringbuf.o [1]
+nrf_atomic_flag_set     0x000259b9   0x1a  Code  Lc  nrf_log_frontend.o [1]
+nrf_atomic_flag_set_fetch
+                        0x0002c86d   0x1a  Code  Lc  nrf_ringbuf.o [1]
+nrf_balloc_alloc        0x00026ba5   0x44  Code  Gb  nrf_balloc.o [1]
+nrf_balloc_free         0x00026be9   0x30  Code  Gb  nrf_balloc.o [1]
+nrf_balloc_init         0x00026b77   0x2e  Code  Gb  nrf_balloc.o [1]
+nrf_bitmask_bit_is_set  0x0002a94b   0x10  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_ble_amtc_handles_assign
+                        0x000280db   0x1a  Code  Gb  amtc.o [1]
+nrf_ble_amtc_init       0x00028085   0x56  Code  Gb  amtc.o [1]
+nrf_ble_amtc_notif_enable
+                        0x000281bd   0x52  Code  Gb  amtc.o [1]
+nrf_ble_amtc_on_ble_evt
+                        0x000280f5   0xc8  Code  Gb  amtc.o [1]
+nrf_ble_amtc_on_db_disc_evt
+                        0x00027fed   0x98  Code  Gb  amtc.o [1]
+nrf_ble_amtc_rcb_read   0x0002820f   0x3e  Code  Gb  amtc.o [1]
+nrf_ble_amts_init       0x00028b05   0xc8  Code  Gb  amts.o [1]
+nrf_ble_amts_notif_spam
+                        0x00028bcd    0x8  Code  Gb  amts.o [1]
+nrf_ble_amts_on_ble_evt
+                        0x00028aa3   0x62  Code  Gb  amts.o [1]
+nrf_ble_amts_on_gatt_evt
+                        0x00028bd5   0x12  Code  Gb  amts.o [1]
+nrf_ble_amts_rbc_set    0x00028c95   0x4a  Code  Gb  amts.o [1]
+nrf_ble_gatt_att_mtu_central_set
+                        0x00028fbd   0x18  Code  Gb  nrf_ble_gatt.o [1]
+nrf_ble_gatt_att_mtu_periph_set
+                        0x00028fa5   0x18  Code  Gb  nrf_ble_gatt.o [1]
+nrf_ble_gatt_data_length_set
+                        0x00028fd5   0x4c  Code  Gb  nrf_ble_gatt.o [1]
+nrf_ble_gatt_init       0x00028f79   0x2c  Code  Gb  nrf_ble_gatt.o [1]
+nrf_ble_gatt_on_ble_evt
+                        0x00029021  0x188  Code  Gb  nrf_ble_gatt.o [1]
+nrf_cli_build_in_cmd_common_executed
+                        0x00024bc3   0x30  Code  Lc  nrf_cli.o [1]
+nrf_cli_clear_const     0x0002d4ac    0x8  Data  Gb  nrf_cli.o [1]
+nrf_cli_clear_raw       0x0002bf30   0x10  Data  Gb  nrf_cli.o [1]
+nrf_cli_cli_stats_const
+                        0x0002d4d4    0x8  Data  Gb  nrf_cli.o [1]
+nrf_cli_cli_stats_raw   0x0002c050   0x10  Data  Gb  nrf_cli.o [1]
+nrf_cli_cmd_clear       0x00024bf3   0x38  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_clear{15}::cmd
+                        0x000250c8    0x8  Data  Lc  nrf_cli.o [1]
+nrf_cli_cmd_clear{8}::cmd
+                        0x000250c4    0x4  Data  Lc  nrf_cli.o [1]
+nrf_cli_cmd_cli_stats   0x00024da7   0x40  Code  Gb  nrf_cli.o [1]
+nrf_cli_cmd_cli_stats_get
+                        0x00024de7   0x46  Code  Gb  nrf_cli.o [1]
+nrf_cli_cmd_cli_stats_reset
+                        0x00024e2d   0x24  Code  Gb  nrf_cli.o [1]
+nrf_cli_cmd_colors      0x00024c67   0x28  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_colors_off  0x00024c2b   0x1e  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_colors_on   0x00024c49   0x1e  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_echo        0x00024c95   0x56  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_echo_off    0x00024cf3   0x1e  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_echo_on     0x00024d11   0x16  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_history     0x00024d37   0x68  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_resize      0x00024e99   0x8c  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_resize_default
+                        0x00024e51   0x24  Code  Lc  nrf_cli.o [1]
+nrf_cli_cmd_resize_default{2}::cmd
+                        0x000250d0    0x8  Data  Lc  nrf_cli.o [1]
+nrf_cli_colors_const    0x0002d4b4    0x8  Data  Gb  nrf_cli.o [1]
+nrf_cli_colors_raw      0x0002bf78   0x10  Data  Gb  nrf_cli.o [1]
+nrf_cli_config_const    0x0002d49c    0x8  Data  Gb  example_cmds.o [1]
+nrf_cli_config_raw      0x0002bc98   0x10  Data  Gb  example_cmds.o [1]
+nrf_cli_echo_const      0x0002d4bc    0x8  Data  Gb  nrf_cli.o [1]
+nrf_cli_echo_raw        0x0002bfc0   0x10  Data  Gb  nrf_cli.o [1]
+nrf_cli_fprintf         0x000246af   0x5e  Code  Gb  nrf_cli.o [1]
+nrf_cli_help_print      0x00024803  0x1e6  Code  Gb  nrf_cli.o [1]
+nrf_cli_help_print::cmd_sep
+                        0x000250c0    0x4  Data  Lc  nrf_cli.o [1]
+nrf_cli_help_print::help
+                        0x000250b4    0xc  Data  Lc  nrf_cli.o [1]
+nrf_cli_help_print::opt_sep
+                        0x000250b0    0x4  Data  Lc  nrf_cli.o [1]
+nrf_cli_history_const   0x0002d4c4    0x8  Data  Gb  nrf_cli.o [1]
+nrf_cli_history_raw     0x0002bfd0   0x10  Data  Gb  nrf_cli.o [1]
+nrf_cli_init            0x000245eb   0x2a  Code  Gb  nrf_cli.o [1]
+nrf_cli_instance_init   0x00024547   0x98  Code  Lc  nrf_cli.o [1]
+nrf_cli_log_const       0x0002d4dc    0x8  Data  Gb  nrf_log_frontend.o [1]
+nrf_cli_log_raw         0x0002ccb4   0x10  Data  Gb  nrf_log_frontend.o [1]
+nrf_cli_print_stream    0x000246a9    0x6  Code  Gb  nrf_cli.o [1]
+nrf_cli_process         0x00024657   0x44  Code  Gb  nrf_cli.o [1]
+nrf_cli_resize_const    0x0002d4cc    0x8  Data  Gb  nrf_cli.o [1]
+nrf_cli_resize_raw      0x0002c008   0x10  Data  Gb  nrf_cli.o [1]
+nrf_cli_rtt_transport_api
+                        0x0002d734   0x14  Data  Gb  nrf_cli_rtt.o [1]
+nrf_cli_run_const       0x0002d4a4    0x8  Data  Gb  example_cmds.o [1]
+nrf_cli_run_raw         0x0002bca8   0x10  Data  Gb  example_cmds.o [1]
+nrf_cli_start           0x00024615   0x42  Code  Gb  nrf_cli.o [1]
+nrf_cli_uart_transport_api
+                        0x0002d6b0   0x14  Data  Gb  nrf_cli_uart.o [1]
+nrf_clock_event_check   0x0002d051    0xe  Code  Lc  nrf_drv_clock.o [1]
+nrf_clock_event_clear   0x0002d03d   0x14  Code  Lc  nrf_drv_clock.o [1]
+nrf_delay_us            0x00029371   0x88  Code  Lc  app_timer.o [1]
+nrf_drv_clock_init      0x0002d075   0x3a  Code  Gb  nrf_drv_clock.o [1]
+nrf_drv_clock_lfclk_release
+                        0x0002d0af   0x18  Code  Gb  nrf_drv_clock.o [1]
+nrf_drv_common_irq_disable
+                        0x0002afc1   0x10  Code  Lc  nrf_drv_uart.o [1]
+nrf_drv_common_irq_enable
+                        0x0002af29   0x34  Code  Gb  nrf_drv_common.o [1]
+nrf_drv_gpiote_in_event_disable
+                        0x0002ab5f   0x3e  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_in_event_enable
+                        0x0002aadf   0x80  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_in_init  0x0002aa45   0x9a  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_in_is_set
+                        0x0002ab9d    0xc  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_init     0x0002a9e9   0x4e  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_gpiote_is_init  0x0002aa37    0xe  Code  Gb  nrf_drv_gpiote.o [1]
+nrf_drv_rtc_disable     0x0002a62f    0xa  Code  Gb  nrf_drv_rtc.o [1]
+nrf_drv_rtc_enable      0x0002a61b    0x8  Code  Gb  nrf_drv_rtc.o [1]
+nrf_drv_rtc_init        0x0002a5bd   0x5e  Code  Gb  nrf_drv_rtc.o [1]
+nrf_drv_rtc_int_handler
+                        0x0002a64b   0x9a  Code  Lc  nrf_drv_rtc.o [1]
+nrf_drv_rtc_tick_disable
+                        0x0002a639    0xc  Code  Gb  nrf_drv_rtc.o [1]
+nrf_drv_uart_init       0x0002b20f   0x58  Code  Gb  nrf_drv_uart.o [1]
+nrf_drv_uart_rx         0x0002b56f   0xa0  Code  Gb  nrf_drv_uart.o [1]
+nrf_drv_uart_rx_abort   0x0002b66b   0x1e  Code  Gb  nrf_drv_uart.o [1]
+nrf_drv_uart_rx_for_uart
+                        0x0002b431   0x9c  Code  Lc  nrf_drv_uart.o [1]
+nrf_drv_uart_rx_for_uarte
+                        0x0002b4cd   0x9a  Code  Lc  nrf_drv_uart.o [1]
+nrf_drv_uart_tx         0x0002b309   0xa4  Code  Gb  nrf_drv_uart.o [1]
+nrf_drv_uart_tx_for_uarte
+                        0x0002b2af   0x52  Code  Lc  nrf_drv_uart.o [1]
+nrf_drv_uart_tx_in_progress
+                        0x0002b3cd   0x12  Code  Gb  nrf_drv_uart.o [1]
+nrf_drv_uart_uninit     0x0002b267   0x28  Code  Gb  nrf_drv_uart.o [1]
+nrf_fprintf             0x00025127   0x20  Code  Gb  nrf_fprintf.o [1]
+nrf_fprintf_buffer_flush
+                        0x00025111   0x16  Code  Gb  nrf_fprintf.o [1]
+nrf_fprintf_fmt         0x00026573  0x1a6  Code  Gb  nrf_fprintf_format.o [1]
+nrf_gpio_cfg            0x0002827d   0x1c  Code  Lc  boards.o [1]
+nrf_gpio_cfg            0x0002a8e7   0x1e  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpio_cfg            0x0002afd1   0x18  Code  Lc  nrf_drv_uart.o [1]
+nrf_gpio_cfg_default    0x0002b00f    0xa  Code  Lc  nrf_drv_uart.o [1]
+nrf_gpio_cfg_input      0x0002affb    0xe  Code  Lc  nrf_drv_uart.o [1]
+nrf_gpio_cfg_output     0x0002afef    0xc  Code  Lc  nrf_drv_uart.o [1]
+nrf_gpio_cfg_sense_set  0x0002a905   0x22  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpio_pin_write      0x00028299   0x12  Code  Lc  boards.o [1]
+nrf_gpio_ports_read     0x0002a927   0x24  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpiote_event_clear  0x0002a8cf   0x18  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_gpiote_event_is_set
+                        0x0002a8bd   0x12  Code  Lc  nrf_drv_gpiote.o [1]
+nrf_log_backend_add     0x00025f69   0x78  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_backend_cli_api
+                        0x0002bf24    0xc  Data  Gb  nrf_cli.o [1]
+nrf_log_backend_cli_flush
+                        0x00024ba5    0x2  Code  Lc  nrf_cli.o [1]
+nrf_log_backend_cli_panic_set
+                        0x00024ba7   0x1c  Code  Lc  nrf_cli.o [1]
+nrf_log_backend_cli_put
+                        0x00024b65   0x40  Code  Lc  nrf_cli.o [1]
+nrf_log_color_id_get    0x00025aad   0x2a  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_dequeue
+                        0x00025d49  0x1dc  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_0  0x00025cff    0x6  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_1  0x00025d05    0xe  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_2  0x00025d13    0xe  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_frontend_std_3  0x00025d21    0xe  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_hexdump_entry_process
+                        0x000269f1   0x9e  Code  Gb  nrf_log_str_formatter.o [1]
+nrf_log_init            0x000259d3   0x86  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_module_filter_get
+                        0x00025b19   0x3e  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_module_filter_set
+                        0x00025ad7   0x42  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_module_name_get
+                        0x00025a91   0x1a  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_panic           0x00025fe1   0x20  Code  Gb  nrf_log_frontend.o [1]
+nrf_log_std_entry_process
+                        0x00026971   0x80  Code  Gb  nrf_log_str_formatter.o [1]
+nrf_memobj_alloc        0x00025295   0x64  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_free         0x000252f9   0x2c  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_get          0x00025325   0x1a  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_pool_init    0x00025291    0x4  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_put          0x00025341   0x28  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_read         0x000253d3    0x6  Code  Gb  nrf_memobj.o [1]
+nrf_memobj_write        0x000253cb    0x8  Code  Gb  nrf_memobj.o [1]
+nrf_nvic_state          0x2000847c    0xc  Data  Gb  app_util_platform.o [1]
+nrf_queue_generic_pop   0x0002682b   0x8c  Code  Gb  nrf_queue.o [1]
+nrf_queue_is_empty      0x000268d3   0x12  Code  Gb  nrf_queue.o [1]
+nrf_queue_is_full       0x00026767   0x18  Code  Gb  nrf_queue.o [1]
+nrf_queue_max_utilization_reset
+                        0x000268e5    0x8  Code  Gb  nrf_queue.o [1]
+nrf_queue_next_idx      0x00026741    0xe  Code  Lc  nrf_queue.o [1]
+nrf_queue_push          0x0002677f   0xac  Code  Gb  nrf_queue.o [1]
+nrf_ringbuf_alloc       0x0002c8b5   0x64  Code  Gb  nrf_ringbuf.o [1]
+nrf_ringbuf_cpy_get     0x0002ca25   0x6e  Code  Gb  nrf_ringbuf.o [1]
+nrf_ringbuf_cpy_put     0x0002c955   0x68  Code  Gb  nrf_ringbuf.o [1]
+nrf_ringbuf_free        0x0002ca9f   0x22  Code  Gb  nrf_ringbuf.o [1]
+nrf_ringbuf_get         0x0002c9bd   0x68  Code  Gb  nrf_ringbuf.o [1]
+nrf_ringbuf_init        0x0002c8a3   0x12  Code  Gb  nrf_ringbuf.o [1]
+nrf_ringbuf_put         0x0002c919   0x3c  Code  Gb  nrf_ringbuf.o [1]
+nrf_rtc_event_clear     0x0002a5ad   0x10  Code  Lc  nrf_drv_rtc.o [1]
+nrf_sdh_ble_app_ram_start_get
+                        0x00029aed    0xe  Code  Gb  nrf_sdh_ble.o [1]
+nrf_sdh_ble_default_cfg_set
+                        0x00029afb  0x12c  Code  Gb  nrf_sdh_ble.o [1]
+nrf_sdh_ble_enable      0x00029c47   0x6c  Code  Gb  nrf_sdh_ble.o [1]
+nrf_sdh_ble_evts_poll   0x00029ccb   0x44  Code  Lc  nrf_sdh_ble.o [1]
+nrf_sdh_enable_request  0x00029a13   0x66  Code  Gb  nrf_sdh.o [1]
+nrf_sdh_evts_poll       0x00029aa1   0x22  Code  Gb  nrf_sdh.o [1]
+nrf_sdh_is_enabled      0x00029a79    0x6  Code  Gb  nrf_sdh.o [1]
+nrf_sdh_soc_evts_poll   0x0002d4e5   0x36  Code  Lc  nrf_sdh_soc.o [1]
+nrf_section_iter_init   0x0002ad57    0x4  Code  Gb  nrf_section_iter.o [1]
+nrf_section_iter_item_set
+                        0x0002ad35   0x22  Code  Lc  nrf_section_iter.o [1]
+nrf_section_iter_next   0x0002ad5f   0x1c  Code  Gb  nrf_section_iter.o [1]
+nrf_strerror_array      0x0002add8   0xf0  Data  Lc  nrf_strerror.o [1]
+nrf_strerror_find       0x0002ad8b   0x38  Code  Gb  nrf_strerror.o [1]
+nrf_strerror_get        0x0002ad7d    0xe  Code  Gb  nrf_strerror.o [1]
+nrf_uart_event_check    0x0002af6f    0x2  Code  Lc  nrf_drv_uart.o [1]
+nrf_uart_event_clear    0x0002af6d    0x2  Code  Lc  nrf_drv_uart.o [1]
+nrf_uart_hwfc_pins_set  0x0002af89    0x2  Code  Lc  nrf_drv_uart.o [1]
+nrf_uart_int_enable_check
+                        0x0002af71    0xe  Code  Lc  nrf_drv_uart.o [1]
+nrf_uart_txrx_pins_set  0x0002af7f    0xa  Code  Lc  nrf_drv_uart.o [1]
+nrf_uarte_event_check   0x0002af9d    0x2  Code  Lc  nrf_drv_uart.o [1]
+nrf_uarte_event_clear   0x0002af8b    0x2  Code  Lc  nrf_drv_uart.o [1]
+nrf_uarte_hwfc_pins_set
+                        0x0002afb3    0x2  Code  Lc  nrf_drv_uart.o [1]
+nrf_uarte_txrx_pins_set
+                        0x0002afa9    0xa  Code  Lc  nrf_drv_uart.o [1]
+on_ble_gap_evt_adv_report
+                        0x00026ce3   0x98  Code  Lc  main.o [1]
+on_ble_gap_evt_connected
+                        0x00026da1   0xce  Code  Lc  main.o [1]
+on_characteristic_discovery_rsp
+                        0x00028563   0xda  Code  Lc  ble_db_discovery.o [1]
+on_connected_evt        0x00028ed5   0x96  Code  Lc  nrf_ble_gatt.o [1]
+on_descriptor_discovery_rsp
+                        0x0002863d   0xd6  Code  Lc  ble_db_discovery.o [1]
+on_srv_disc_completion  0x000283ff   0x62  Code  Lc  ble_db_discovery.o [1]
+option_print            0x00023d3b   0x78  Code  Lc  nrf_cli.o [1]
+phy_set                 0x0002cf01   0x2a  Code  Lc  example_cmds.o [1]
+phy_str                 0x00026c81   0x36  Code  Gb  main.o [1]
+pin_in_use_by_gpiote    0x0002a983   0x10  Code  Lc  nrf_drv_gpiote.o [1]
+pin_in_use_by_port      0x0002a96d   0x16  Code  Lc  nrf_drv_gpiote.o [1]
+pin_in_use_by_te        0x0002a95b   0x12  Code  Lc  nrf_drv_gpiote.o [1]
+pins_to_default         0x0002b16d   0x92  Code  Lc  nrf_drv_uart.o [1]
+postfix_process         0x0002693f   0x30  Code  Lc  nrf_log_str_formatter.o [1]
+preferred_phy_set       0x00027515    0xe  Code  Gb  main.o [1]
+prefix_process          0x000268ed   0x52  Code  Lc  nrf_log_str_formatter.o [1]
+qsort                   0x000259a9    0xe  Code  Gb  qsort.o [3]
+queue_utilization_get   0x0002674f   0x18  Code  Lc  nrf_queue.o [1]
+registered_handler_get  0x00028329   0x30  Code  Lc  ble_db_discovery.o [1]
+resize_str_ptr          0x20006814    0x4  Data  Gb  nrf_cli.o [1]
+rot3                    0x000254d9   0x68  Code  Lc  qsort.o [3]
+rotate                  0x00025547   0x4e  Code  Lc  qsort.o [3]
+rtc1_stop               0x000293f9   0x3a  Code  Lc  app_timer.o [1]
+rtc_handler             0x00028a21    0x8  Code  Lc  counter.o [1]
+run_str_ptr             0x20006800    0x4  Data  Gb  example_cmds.o [1]
+rx_byte                 0x0002b3ff   0x32  Code  Lc  nrf_drv_uart.o [1]
+rx_done_event           0x0002b60f   0x1a  Code  Lc  nrf_drv_uart.o [1]
+rx_enable               0x0002b3df   0x20  Code  Lc  nrf_drv_uart.o [1]
+rx_try                  0x0002ccc5   0x36  Code  Lc  nrf_cli_uart.o [1]
+scan_start              0x00027477   0x24  Code  Lc  main.o [1]
+sd_nvic_SetPriority     0x00029939   0x3c  Code  Lc  nrf_sdh.o [1]
+sd_state_evt_handler    0x0002d155   0x44  Code  Lc  nrf_drv_clock.o [1]
+sdh_ble_observers       0x00029f54    0xc  Data  Lc  nrf_sdh_ble.o [1]
+sdh_ble_observers0$$Base
+                        0x0002d7c8          --   Gb  - Linker created -
+sdh_ble_observers0$$Limit
+                        0x0002d7d0          --   Gb  - Linker created -
+sdh_ble_observers1$$Base
+                        0x0002d624          --   Gb  - Linker created -
+sdh_ble_observers1$$Limit
+                        0x0002d64c          --   Gb  - Linker created -
+sdh_ble_observers2$$Base
+                        0x00000000          --   Gb  - Linker created -
+sdh_ble_observers2$$Limit
+                        0x00000000          --   Gb  - Linker created -
+sdh_ble_observers3$$Base
+                        0x0002d5a0          --   Gb  - Linker created -
+sdh_ble_observers3$$Limit
+                        0x0002d5d0          --   Gb  - Linker created -
+sdh_ble_observers_array
+                        0x0002d5dc   0x20  Data  Lc  nrf_sdh_ble.o [1]
+sdh_req_observers       0x00029ac4    0xc  Data  Lc  nrf_sdh.o [1]
+sdh_req_observers0$$Base
+                        0x00000000          --   Gb  - Linker created -
+sdh_req_observers0$$Limit
+                        0x00000000          --   Gb  - Linker created -
+sdh_req_observers1$$Base
+                        0x00000000          --   Gb  - Linker created -
+sdh_req_observers1$$Limit
+                        0x00000000          --   Gb  - Linker created -
+sdh_req_observers_array
+                        0x0002d570   0x10  Data  Lc  nrf_sdh.o [1]
+sdh_request_observer_notify
+                        0x00029975   0x32  Code  Lc  nrf_sdh.o [1]
+sdh_soc_observers       0x0002d51c    0xc  Data  Lc  nrf_sdh_soc.o [1]
+sdh_soc_observers0$$Base
+                        0x0002d7d0          --   Gb  - Linker created -
+sdh_soc_observers0$$Limit
+                        0x0002d7d8          --   Gb  - Linker created -
+sdh_soc_observers1$$Base
+                        0x00000000          --   Gb  - Linker created -
+sdh_soc_observers1$$Limit
+                        0x00000000          --   Gb  - Linker created -
+sdh_soc_observers_array
+                        0x0002d6ec   0x10  Data  Lc  nrf_sdh_soc.o [1]
+sdh_stack_observers     0x00029adc    0xc  Data  Lc  nrf_sdh.o [1]
+sdh_stack_observers0$$Base
+                        0x0002d758          --   Gb  - Linker created -
+sdh_stack_observers0$$Limit
+                        0x0002d768          --   Gb  - Linker created -
+sdh_stack_observers1$$Base
+                        0x00000000          --   Gb  - Linker created -
+sdh_stack_observers1$$Limit
+                        0x00000000          --   Gb  - Linker created -
+sdh_stack_observers_array
+                        0x0002d590   0x10  Data  Lc  nrf_sdh.o [1]
+sdh_state_observer_notify
+                        0x000299a7   0x28  Code  Lc  nrf_sdh.o [1]
+sdh_state_observers     0x00029ad0    0xc  Data  Lc  nrf_sdh.o [1]
+sdh_state_observers0$$Base
+                        0x0002d7d8          --   Gb  - Linker created -
+sdh_state_observers0$$Limit
+                        0x0002d7e0          --   Gb  - Linker created -
+sdh_state_observers1$$Base
+                        0x00000000          --   Gb  - Linker created -
+sdh_state_observers1$$Limit
+                        0x00000000          --   Gb  - Linker created -
+sdh_state_observers_array
+                        0x0002d580   0x10  Data  Lc  nrf_sdh.o [1]
+sdk_mapped_flags_bulk_update_by_key
+                        0x0002a519   0x44  Code  Gb  sdk_mapped_flags.o [1]
+sdk_mapped_flags_first_key_index_get
+                        0x0002a4ef   0x1c  Code  Gb  sdk_mapped_flags.o [1]
+sdk_mapped_flags_key_list_get
+                        0x0002a55d   0x38  Code  Gb  sdk_mapped_flags.o [1]
+sdk_mapped_flags_n_flags_set
+                        0x0002a595   0x18  Code  Gb  sdk_mapped_flags.o [1]
+sdk_mapped_flags_update_by_key
+                        0x0002a50b    0xe  Code  Gb  sdk_mapped_flags.o [1]
+service_data_encode     0x0002a21d   0x82  Code  Lc  ble_advdata.o [1]
+set_security_req        0x0002a711   0x2a  Code  Lc  ble_srv_common.o [1]
+severity_lvl_get        0x00026241   0x1c  Code  Lc  nrf_log_frontend.o [1]
+severity_names          0x20006698   0x14  Data  Lc  nrf_log_str_formatter.o [1]
+soc_evt_handler         0x0002d14b    0xa  Code  Lc  nrf_drv_clock.o [1]
+softdevices_evt_irq_enable
+                        0x000299cf   0x3c  Code  Lc  nrf_sdh.o [1]
+std_header_set          0x00025bed   0x5c  Code  Lc  nrf_log_frontend.o [1]
+std_n                   0x00025ca3   0x5c  Code  Lc  nrf_log_frontend.o [1]
+string_cmp              0x00024533    0x8  Code  Lc  nrf_cli.o [1]
+strlen                  0x000250d9         Code  Gb  strlen.o [5]
+strncmp                 0x00025457   0x2c  Code  Gb  strncmp.o [3]
+swap                    0x00025483   0x56  Code  Lc  qsort.o [3]
+test_begin              0x000275db   0x48  Code  Gb  main.o [1]
+timer_handler           0x0002d1b5   0x32  Code  Lc  nrf_cli_rtt.o [1]
+timer_handler           0x0002cd61    0x6  Code  Lc  nrf_cli_uart.o [1]
+timer_list_handler      0x00029625   0xa0  Code  Lc  app_timer.o [1]
+timer_stop_op_schedule  0x000296f7   0x42  Code  Lc  app_timer.o [1]
+tx_buffer_process       0x00027fb7   0x36  Code  Lc  amtc.o [1]
+tx_byte                 0x0002b28f   0x20  Code  Lc  nrf_drv_uart.o [1]
+tx_done_event           0x0002b629   0x1e  Code  Lc  nrf_drv_uart.o [1]
+uart_event_handler      0x0002ccfb   0x66  Code  Lc  nrf_cli_uart.o [1]
+uart_irq_handler        0x0002b689  0x116  Code  Lc  nrf_drv_uart.o [1]
+uarte_irq_handler       0x0002b7a5   0xda  Code  Lc  nrf_drv_uart.o [1]
+uint16_decode           0x0002a6f9    0xa  Code  Lc  ble_srv_common.o [1]
+uint16_encode           0x00029f61    0xa  Code  Lc  ble_advdata.o [1]
+uint32_decode           0x00027fa1   0x16  Code  Lc  amtc.o [1]
+uint32_encode           0x00028a91   0x12  Code  Lc  amts.o [1]
+unsigned_print          0x00026439   0x9a  Code  Lc  nrf_fprintf_format.o [1]
+unsigned_print::_aV2C   0x00026730   0x10  Data  Lc  nrf_fprintf_format.o [1]
+user_op_alloc           0x000296cb   0x2c  Code  Lc  app_timer.o [1]
+user_op_enque           0x000296c5    0x6  Code  Lc  app_timer.o [1]
+uuid_list_encode        0x0002a10b   0x2e  Code  Lc  ble_advdata.o [1]
+uuid_list_sized_encode  0x0002a065   0xa6  Code  Lc  ble_advdata.o [1]
+vt100_bgcolor_set       0x000236c5   0x36  Code  Lc  nrf_cli.o [1]
+vt100_color_set         0x00023671   0x42  Code  Lc  nrf_cli.o [1]
+vt100_color_set{1}{5}::cmd
+                        0x000236c0    0x4  Data  Lc  nrf_cli.o [1]
+vt100_colors_store      0x00023705    0xe  Code  Lc  nrf_cli.o [1]
+
+
+[1] = C:\Users\600023856\Desktop\test\examples\ble_central_and_peripheral\experimental\ble_app_att_mtu_throughput\pca10040\s132\iar\_build
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+
+  38 844 bytes of readonly  code memory
+   4 377 bytes of readonly  data memory
+  10 991 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
